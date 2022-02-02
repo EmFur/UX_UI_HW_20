@@ -1,0 +1,204 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #F4F4F4;
+ }
+
+/** Styles **/ 
+h1 {
+    color: #283B45;
+    font-family: 'Raleway', sans-serif;
+    font-size: 48px;
+    font-size: bold;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
+h4 {
+    color: #B8B08D;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+h5 {
+    color: #B8B08D;
+    font-family: 'Raleway', sans-serif; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #B8B08D; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+button {
+    background-color: #B8B08D;
+    color: #202C39;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: light;
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+}
+
+.icons {
+    width: 36px;
+    height: 36px;
+}
+
+.email {
+    width: 46px; 
+    height: 46px; 
+}
+
+.linkedIn {
+    width: 38px; 
+    height: 36px; 
+}
+
+#headShot {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+
+/** Navigation Bar **/ 
+nav {
+    height: 78px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-brand img {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+
+.navbar-nav {
+    align-items: center;
+    margin-right: 40px;
+}
+
+/** Sidebar **/ 
+aside {
+    padding-left: 50px;
+    padding-right: 25px;
+    margin-top: 78px;
+    width: 25%;
+    height:100vh;
+    border-right: 1px solid #F29559;
+    position: fixed;
+    background-color: #F4F4F4;
+}
+
+.backButton {
+    display: flex;
+    margin-top: 20px;
+}
+
+.backButton h4 {
+    color: #202C39;
+    margin-top: 8px;
+}
+
+.buttonSeries {
+    display: flex;
+    margin-left: 60px;
+    width: auto;
+}
+.paginationDots {
+    align-items: center;
+}
+
+.paginationLabels {
+    align-items: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    color: #B8B08D;
+    background-color: #F4F4F4;
+    border: none;
+    margin: 20px;
+    text-align: right;
+    font-weight: 600;
+    width: 25%;
+}
+
+.paginationDots .btn {
+    text-align: center;
+}
+
+#chevronDown {
+    transform: scaleY(-1);
+}
+
+.titleTile {
+    margin-top: 90px;
+}
+
+.titleTile h1 {
+    margin-bottom: 25px;
+    color: #283B45;
+}
+
+.titleTile p {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+/**Content**/ 
+.caseStudy {
+    width:75%;
+    padding-top: 168px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    right: 0px;
+}
+
+#heroImage{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+    border-radius: 25px;
+}
+
+
