@@ -44,7 +44,7 @@ h6 {
     line-height: 28px;
     color: #B8B08D; 
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 p {
@@ -52,7 +52,7 @@ p {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 30px;
     letter-spacing: 0.05em;
 }
 
@@ -66,6 +66,7 @@ button {
     height: 45px;
     border: none;
     border-radius: 25px;
+    margin-bottom: 50px;;
 }
 
 .icons {
@@ -197,8 +198,108 @@ aside {
 #heroImage{
     width: 100%;
     height: auto;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 0px 0px;
     border-radius: 25px;
 }
 
+.img-fluid {
+    max-width: 30%;
+    height: auto;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
 
+.toolSec {
+    margin-top: 100px;
+}
+
+.toolList {
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+}
+
+.toolList img {
+    width: 30px;
+    height: 30px;
+}
+
+.jumbotron {
+    margin-top: 70px;
+    height: 300px;
+    width: 100%;
+    border-radius: 25px;
+    background-image: url(https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    
+}
+
+.jumbotron h1 {
+    margin-top: 150px;
+    margin-left: 20px;
+    color:#F4F4F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: bold;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.interviewSamp {
+ display: flex;
+ flex-direction: column;
+ margin: 50px;
+}
+
+.intIcon {
+    width: 200px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.interviewSamp p {
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+.jayMiller {
+    border-radius: 30px;
+}
+
+.row img {
+    margin-bottom: 50px;
+}
+
+ol {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+ul {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+
+.mockupImages {
+    border-radius: 25px;
+}
+
+#lastTag {
+    margin: 50px;
+}
